@@ -33,8 +33,9 @@
 
  dynamic_padding: false
  decorations: full
- # transparent_background_colors: true
- opacity: 0.5
+ window:
+   opacity: 0.6
+   transparent_background_colors: true
 
   # Values for `startup_mode`:
   #   - Windowed
