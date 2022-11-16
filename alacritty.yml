@@ -10,7 +10,8 @@
 # to the user's home directory starting with `~/`.
  import:
    - ~/.config/alacritty/colors.yml
-   #  - /path/to/alacritty.yml
+   - ~/.config/alacritty/font.yml
+     #  - /path/to/alacritty.yml
  
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
@@ -34,7 +35,7 @@
  dynamic_padding: false
  decorations: full
  window:
-   opacity: 0.6
+   opacity: 0.9
    transparent_background_colors: true
 
   # Values for `startup_mode`:
