@@ -32,11 +32,12 @@
     x: 12
     y: 12
 
+
  dynamic_padding: false
  decorations: full
  window:
-   opacity: 0.9
-   transparent_background_colors: true
+   opacity: 0.8 
+   transparent_background_colors: false
 
   # Values for `startup_mode`:
   #   - Windowed
@@ -106,7 +107,7 @@
     #   - ▇ Block
     #   - _ Underline
     #   - | Beam
-    shape: Block
+    shape: Beam
 
     # Values for `blinking`:
     #   - Never: Prevent the cursor from ever blinking
